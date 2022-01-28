@@ -10,10 +10,11 @@ namespace Entities.Concrete
     public class Employee:IEntity
     {
         public string EmployeeName { get; set; }
-        public string EmployeeSurname { get; set; }
+        public string EmployeeLastName { get; set; }
         public DateTime EmployeeBirthDate { get; set; }
         public string EmlployeeGraduate { get; set; }
-        public string EmployeeRole { get; set; }
+        public DateTime EmployeeHireDate { get; set; }
+        public string EmployeeTitle { get; set; }
         public string EmployeeAdrress { get; set; }
         public string EmployeePhoneNumber { get; set; }
         public string EmployeeCellPhoneNumber { get; set; }
