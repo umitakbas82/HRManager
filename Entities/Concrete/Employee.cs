@@ -11,15 +11,17 @@ namespace Entities.Concrete
     {
         public string EmployeeName { get; set; }
         public string EmployeeLastName { get; set; }
-        public DateTime EmployeeBirthDate { get; set; }
-        public string EmlployeeGraduate { get; set; }
-        public DateTime EmployeeHireDate { get; set; }
         public string EmployeeTitle { get; set; }
+        public DateTime EmployeeBirthDate { get; set; }
+        public string EmlployeeGraduateDegree { get; set; }
+        public DateTime EmployeeGraduateDate { get; set; }
+        public int  EmployeeExperience { get; set; }
+       
         public string EmployeeAdrress { get; set; }
-        public string EmployeePhoneNumber { get; set; }
+        
         public string EmployeeCellPhoneNumber { get; set; }
-        public int EmployeeIBANNumber { get; set; }
+        
         public string EmployeeEMailAdress { get; set; }
-        public decimal EmployeeSalary{ get; set; }
+        
     }
 }
